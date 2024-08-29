@@ -22,7 +22,8 @@
 
                                   SOLUTIONS
 1. Version control is a system that mmanages changes to source code over time. it allows multiple contributors to work on project simultaneously, keeps a history of changes and help reslove conflicts between different versions of code.
-        Fundamental concepts
+2. 
+Fundamental concepts
    Repository : A storage location for your project, including all files and their history
    Commit: A snapshot of changes to file in a repository. Each commit has a unique ID and a message describing the changes
    Branch: A seprare line of development. It allows you to work on different features or fix without describing the changes
@@ -30,14 +31,14 @@
    Conflict: Occurs when changes in different branches overlap in ways that cannot be automatically reconciled
 
 
-        Github is a porpular platform for version control because it facilitates team collaboration through shared repositories, issues, pull requests, and more. It also support complex workflows with branching and 
-        merging. And it hosts millions of public projects, allowing for open source contributions and sharing
+Github is a porpular platform for version control because it facilitates team collaboration through shared repositories, issues, pull requests, and more. It also support complex workflows with branching and merging. And it hosts millions of public projects, allowing for open source contributions and sharing
 
-        Version control helps maintain project integrity by tracking changes, enabling rollback to previous states and providing visibility into who made which changes and why.
+Version control helps maintain project integrity by tracking changes, enabling rollback to previous states and providing visibility into who made which changes and why.
 
 
-2. Create an account: sign up for a github account, if you don't have one
-   create a repository:
+3. Create an account: sign up for a github account, if you don't have one
+   
+create a repository:
      Go to github home page and click on new repository
       Repository name: choose a repository name
        Description: (optional) provide a brief explanation of your project
@@ -46,16 +47,16 @@
        Add.gitignore:(optional) choose a template to ignore certain file
        Add a license(optional) choose an appropriate license if you're making a project public
 
-  click create repository 
+click create repository 
 
-       Key decision
+Key decision
   Repository name and description: clearly name your project with description
   Visibility: decide whether you want your project to be public or private
   Initialization options: decide if you want to start with a readme or other initial file.
 
       
 3.The README file is crucial for documenting your project. It provides essential information and guidance to users and contributors    
-        What to include
+  What to include
    project title : the name of the project
    description: what the project does and it's purpose
    installation instructions: how  to set up and run the project
@@ -103,14 +104,14 @@ branching supports parallel development, reduces the risk of conflicts, and allo
 
 7. Pull requests are a way to propose changes to a repository. They facilitate code review and collaboration
 
-   Process;
+Process;
      create a PR: Navigate to the repository, select " pull request", and click "New pull request". 
       choose the branch with your changes and the branch you want to merge into.
       describe changes: provide a title and description of your changes
       Review: Team members review the code, leave comments, and suggest improvements
       Merge: one approved , merge the PR into the target brach
 
- Pull requests ensures that code changes are reviewed, tested, and approved before becoming part of the main codebase.
+Pull requests ensures that code changes are reviewed, tested, and approved before becoming part of the main codebase.
 
 
 8. Forking creates a copy of a repository under your github account, allowing you to experiment or make changes independently
