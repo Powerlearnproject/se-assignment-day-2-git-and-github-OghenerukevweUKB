@@ -24,6 +24,7 @@
 1. Version control is a system that mmanages changes to source code over time. it allows multiple contributors to work on project simultaneously, keeps a history of changes and help reslove conflicts between different versions of code.
  
 Fundamental concepts
+
   Repository : A storage location for your project, including all files and their history
    
   Commit: A snapshot of changes to file in a repository. Each commit has a unique ID and a message describing the changes
@@ -43,6 +44,7 @@ Version control helps maintain project integrity by tracking changes, enabling r
 2. Create an account: sign up for a github account, if you don't have one
    
 create a repository:
+
   Go to github home page and click on new repository
      
   Repository name: choose a repository name
@@ -60,6 +62,7 @@ create a repository:
 click create repository 
 
 Key decision
+
  Repository name and description: clearly name your project with description
   
  Visibility: decide whether you want your project to be public or private
@@ -70,6 +73,7 @@ Key decision
 3.The README file is crucial for documenting your project. It provides essential information and guidance to users and contributors  
 
 What to include
+
  project title : the name of the project
    
  description: what the project does and it's purpose
@@ -87,22 +91,27 @@ A well written README helps new users understand the project quickly, guides con
 4. Pubic repositories are your projects that can be seen by others, while privates project can not been seen by others only you.
    
 Pubic repository (Advances):
+
  open to everyone, promotes open source contributions
  can help in showcasing your work or finding collaborators
 
 Disavantages:
+
   code and issues are visible to the pubic , which may poses privacy or security risks
 
 Private Repository(Advantages):
+
   restricted access, code and issues are vissible only to selected collaborators
   better for proprietary projects or sensitive information
 
 Disadvantages:
+
   limited visiblity, fewer people can discover or contribute to the project
 
 5.A commit is a saved change to the repository. It contains a snapshot of the project at a given time ,with a uniquen ID and a message explaining the changes
 
 steps:
+
 make changes: edit files in your repository
 stage changes: use 'git add <file>' to stage the changes you want to commit.
 commit changes: use 'git commit -m "commit message"' to record the changes with a descriptive message.
@@ -113,12 +122,14 @@ commits help track the history of changes, manage different versions and provide
 6.Branching allows you to work on different features or fixes simultaneously without affecting the main codebase(usually the 'main' or 'master' branch
 
 process:
+
 creat a branch:use 'git branch<branch-name>' to create a new branch
 switch to branch : use 'git checkout<branch-name>' to switch to the new branch
 make changes and commit: develop and commit changes in the new branch
 merge branch: use 'git checkout main' to switch back to the main branch, then 'git merge<branch name>.' to integrate changes
 
 Importance:
+
 branching supports parallel development, reduces the risk of conflicts, and allows for clean feature integration.
 
 7. Pull requests are a way to propose changes to a repository. They facilitate code review and collaboration
@@ -134,7 +145,9 @@ Pull requests ensures that code changes are reviewed, tested, and approved befor
 
 
 8. Forking creates a copy of a repository under your github account, allowing you to experiment or make changes independently
+   
    Differences:
+   
       forking creates a separate copy on github, useful for contributing to someone else's project or 
       personal modification while cloning creates a local copy of the repository on your machine for 
       dirct work and commit
@@ -145,6 +158,7 @@ forking is useful for contributing to open source projects, where you can propos
   Project Boards: Visualize and manage tasks using Kanban style boards
 
   usage:
+  
     issues: create and manage tasks, assign them to team memebers and track progress
     project boards: Organize issues into columns representing different stages of different, 
     providing a visual overview of project status
@@ -152,11 +166,13 @@ forking is useful for contributing to open source projects, where you can propos
 They improve project organization, enhance task management, and facilitate communication among team members
    
 10. challenges:
+    
       merge conflicts can rise from simultaneous changes
       managing multiple branches and merges can become complex
       writing clear and descriptive commit message is crucial for tracking changes effectively
 
     Best Practices:
+    
        commit changes regularly with meaningful messages
        use branches for features, fixes, and experiments
        use issues and pull requests to communicate and document work
