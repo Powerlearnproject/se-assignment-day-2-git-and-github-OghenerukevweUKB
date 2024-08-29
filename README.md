@@ -60,35 +60,35 @@ create a repository:
 click create repository 
 
 Key decision
-  Repository name and description: clearly name your project with description
+ Repository name and description: clearly name your project with description
   
-  Visibility: decide whether you want your project to be public or private
+ Visibility: decide whether you want your project to be public or private
   
-  Initialization options: decide if you want to start with a readme or other initial file.
+ Initialization options: decide if you want to start with a readme or other initial file.
 
       
 3.The README file is crucial for documenting your project. It provides essential information and guidance to users and contributors  
 
 What to include
-   project title : the name of the project
+ project title : the name of the project
    
-   description: what the project does and it's purpose
+ description: what the project does and it's purpose
    
-   installation instructions: how  to set up and run the project
+ installation instructions: how  to set up and run the project
    
-   ususge:examples and instructions for using the software
+ ususge:examples and instructions for using the software
    
-   contribution: guidelines for how others can contribute
+ contribution: guidelines for how others can contribute
    
-   Lincenses: Information about lincensing and permissions
+  Lincenses: Information about lincensing and permissions
 
 A well written README helps new users understand the project quickly, guides contributors on how to get started, and improves overall collaboration.
 
 4. Pubic repositories are your projects that can be seen by others, while privates project can not been seen by others only you.
    
 Pubic repository (Advances):
-  open to everyone, promotes open source contributions
-  can help in showcasing your work or finding collaborators
+ open to everyone, promotes open source contributions
+ can help in showcasing your work or finding collaborators
 
 Disavantages:
   code and issues are visible to the pubic , which may poses privacy or security risks
